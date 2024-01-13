@@ -1,25 +1,19 @@
 # CompGraphics
 
-## Assignments from Computer Graphics I (Winter 2023) course
+We had two assignments and one term project to work on throughout the semester in my graduate-level ***Computer Graphics I*** course.
 
-These are the two big assignments I worked on for my Computer Graphics course during my time as a graduate student and working towards my MS in Computer Science degree. The goals of the assingment were to:
-  1) Adding two 256x256 matrices using Pthreads
-  2) Adding two 2048x2048 matrices using MPI on 8 processors
-  3) Implementing a *parallelized* odd-even algorithm and comparing its performance against a typical *sequential* implementation
-  <!-- 3) Multiplying two square matrices using OpenMP
-      - 1, 2, 4, 8, 16, and 32 thread sizes running on university's grid computing service -->
-  
+## `opengl_raytracing`
+The two assignments built off each other and can be found under the `opengl_raytracing` subdirectory. 
 
-I learned and worked with the following languages and tools in-depth: 
-  - `C` & `C++`
-  - `Pthreads`
-  - `OpenMP`
-  - `MPI`
-  - [Grid computing](https://tech.wayne.edu/hpc-tutorials) (i..e, high-performance computing (HPC))
-  - Other (shell scripting, Git, GitHub, )
+  - This assignment challenged me to build my own 3D virtual world using a skybox, shading, local and global illumination, ray tracing, user interactivity via keyboard & mouse I/O (ex. change camera position/zoom, turning lights on/off, etc.), importing `OBJ` files (i.e., models) and decoding `PNG` or `JPG` files for applying textures on to the models, building a custom camera system, working with linear algebra concepts, etc.
+  - `C++`, `OpenGL`, `assimp`, `stb_image.h`, `Visual Studio 2022`, `Git` & `GitHub`, and `Blender` were used significantly for this assignment.
 
-Furthermore, `Bash` scripting and `Makefile`s were used to streamline the program's execution and compilation processes, respectively.
+## `termproject_render_3d_objs`
+Our term project was given so we could understand computer graphics concepts from a completely different perspective and can be found under the subdirectory titled `termproject_render_3d_objs`.
 
-Basic instructions can be found in `txt` files titled `README`. Results of the program can be found in respective `txt` and/or `pdf` files.
+  - In other words, instead of programming our objects directly (see previous paragraph), we were challenged to reconstruct 3D object(s) from the real world using various computational techniques.
+  - For this project, I used `Python`, `OpenCV-Python`, `COLMAP`, and `MeshLab`. 
 
-*While a few minor complications were encountered, the majority of the assignment requirements were successfully achieved.*
+
+# Disclaimer
+*This repo is available **temporarily** for **recruiters and engineers only** so they can see my code first-hand during the application process.*
